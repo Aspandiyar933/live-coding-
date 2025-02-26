@@ -6,7 +6,6 @@ import {
   CardActions,
   CardContent,
   CardMedia,
-  Grid2,
   List,
   ListItem,
   Typography,
@@ -97,8 +96,8 @@ function App() {
               sx={{
                 display: "flex",
                 flexWrap: "wrap",
-                gap: 2, // Space between items
-                justifyContent: "center", // Center items
+                gap: 2,
+                justifyContent: "center",
               }}
             >
               {courses.map((course) => (
